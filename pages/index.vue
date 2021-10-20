@@ -152,12 +152,11 @@ export default {
   align-items: center;
   flex-flow: column nowrap;
   width: 100%;
-  border: solid 1px blue;
 }
 
 .desc {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 16px;
