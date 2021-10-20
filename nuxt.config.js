@@ -31,6 +31,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  // deploy github page: https://www.nuxtjs.cn/faq/github-pages
+  target: "static",
+  router: {
+    base: "/echarts-line-mouse-draw/"
+  },
   generate: {
     dir: "docs"
   }
